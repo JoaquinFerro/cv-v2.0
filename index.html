@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8964b1cc3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR-->
+    <nav
+      class="navbar navbar-expand-lg navbar navbar-expand-lg bg-secondary navbar-dark sticky-top" 
+      style="background-color: #6c757d;">
+      <div class="container-fluid" >
+        <a class="navbar-brand" id="inicio"
+          ><img src="./assets/img/logojf.png" alt="Logo" width="70" /><span
+            class="text-nav"
+          >
+            DESAROLLO</span
+          >
+          FRONT END</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#estudios">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portafolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactanos">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+   
+
+    <header>
+      <div class="hero">
+        <img src="./assets/img/foto.png" alt="Foto">
+        <h1>Joaquin Ferro V.</h1>
+        <p>Desarrollador Front end</p>
+        <a
+          href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+          target="_blank"
+          class="btn"
+          >Conéctate conmigo <i class="fab fa-linkedin" id="estudios"></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- SECCION ESTUDIO-->
+    <main>
+      <section class="estudios"><br><br>
+      <h2 class=" text-center">Estudios</h2>
+      <div class="estudios text-center">
+        <li>
+          Academnia Desafio Latam <br />Desarrollo Web (Front end) Actualmente
+        </li>
+        <br />
+        <li>
+          Estudios Universitarios <br />Academia de Artes y Letras <br />
+          Tecnico Profesional en Diseñador Gráfico
+        </li>
+      </section><br>
+        <section class="skills"><br><br>
+          <h2 class="skill-header">Habilidades</h2>
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/img/icons8-html-5.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./assets/img/icons8-css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./assets/img/icon-git.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="./assets/img/Photoshop-Logo.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./assets/img/icon-illu.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./assets/img/icons8-git.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+                id="portafolio"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="py-3 container">
+        <div class="row py-1">
+          <!--* CARDS-->
+          <h2
+            class="text-center py-1 my-1" 
+          >
+            Portafolio
+          </h2>
+          <div class="col-md-6 col-lg-4 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/iguana.jpg"
+                class="card-img-top"
+                alt="taza de cafe"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Iguana Page</h5>
+                <p class="card-text">
+                  Las iguanas son muy variadas, pero todas las especies tienen
+                  una cosa en común: su aspecto misterioso fascina a expertos.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://www.zooplus.es/magazine/reptiles/especies-de-reptiles/iguanas"
+                    target="_blank"
+                    class="btn btn-card"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FINA DE LA CARD-->
+          <div class="col-md-6 col-lg-4 my-3ol-md-6 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/pizzeria.jpg"
+                class="card-img-top"
+                alt="Pizzeria"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Pizzeria Ramos</h5>
+                <p class="card-text">
+                  La pizza es un plato hecho con una masa plana, habitualmente
+                  circular, elaborada con harina de trigo, levadura, agua y sal.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://www.olivetto.com.co/recetas/como-hacer-pizza-italiana/"
+                    target="_blank"
+                    class="btn btn-card"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-3ol-md-6 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/cuppon.jpg"
+                class="card-img-top"
+                alt="taza de cafe"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">CUPPON</h5>
+                <p class="card-text">
+                  Esta plataforma te da a conocer las ofertas de último momento
+                  que puedes encontrar en tiendas físicas.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://www.cuponomia.com.co/"
+                    target="_blank"
+                    class="btn btn-card"
+                    >Saber más</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-3ol-md-6 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/logo1.jpg"
+                class="card-img-top"
+                alt="taza de cafe"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Diseño Logo</h5>
+                <p class="card-text">
+                  Diseño de Logo para inmobiliaria teniendo en cuenta sus
+                  lienamientos y parametros solicitados por el cliente. 
+                </p>
+                <div class="text-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FINA DE LA CARD-->
+          <div class="col-md-6 col-lg-4 my-3ol-md-6 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/ingeser.jpg"
+                class="card-img-top"
+                alt="taza de cafe"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Diseño de logo</h5>
+                <p class="card-text">
+                  Diseño de Logo empresa de ingenieria  teniendo en cuenta sus
+                  lienamientos y parametros solicitados por el cliente.
+                </p>
+                <div class="text-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--FIN DEL LA CARD-->
+          <div class="col-md-6 col-lg-4 my-3ol-md-6 my-3">
+            <div class="card p-2">
+              <img
+                src="./assets/img/log-montaya.jpg"
+                class="card-img-top"
+                alt="taza de cafe"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Diseño de Logo</h5>
+                <p class="card-text">
+                  Diseño de Logo para grupo empresarial teniendo en cuenta sus
+                  lienamientos y parametros solicitados por el cliente.
+                </p>
+                <div class="text-center">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--FORMULARIO-->
+    <section class="text-center mt-5" id="contactanos">
+      <div class="container-fluid">
+        <p class="form-label py-3 fs-3">Contactanos</p>
+        <form style="width: 26rem" class="mx-auto mt-3 text-center">
+          <div class="container mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Nombre"
+            />
+          </div>
+
+          <div class="container">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Email"
+            />
+          </div>
+          <div class="container">
+            <textarea
+              class="form-control mt-3"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-light mt-3 mb-4 px-4">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+      <div class="text-center text-secondary pt-3">
+        <img src="./assets/img/logojf.png" alt="Logo Coffe" width="70" />
+        <p class="text">JOAQUIN <span>FERRO 2024</span></p>
+      </div>
+      <div class="social mt-23 fs-1 mb-2 text-center">
+        <a class="text-light" href="https://www.instagram.com/ferrojoaquin/" target="_blank"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <a class="log-facebook" href="https://www.facebook.com/jferrovasco" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

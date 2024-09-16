@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: #1b1b1b;
+  color: whitesmoke;
+}
+.estudios {
+  background-color: #0d6efd;
+  height: 200px;
+}
+
+.text-nav {
+  color: rgb(53, 51, 54);
+}
+
+.btn-card {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-card:hover {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.log-twitter {
+  color: white;
+}
+.log-facebook {
+  color: white;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.hero .btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+header {
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: inset 0 -3em 3em rgba(85, 85, 85, 0.3), 0 0 0 2px white,
+    0.3em 0.3em 1em white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card-text {
+  text-align: justify;
+}
+.container-fluid {
+  background-color: #6c757d;
+  font-size: larger;
+}
